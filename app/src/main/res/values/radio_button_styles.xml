@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="BaseRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:textColor">@color/selector_text</item>
+    </style>
+
+    <style name="LeftRadioButtonStyle" parent="BaseRadioButtonStyle">
+        <item name="android:background">@drawable/selector_left</item>
+    </style>
+
+    <style name="MiddleRadioButtonStyle" parent="BaseRadioButtonStyle">
+        <item name="android:background">@drawable/selector_middle</item>
+    </style>
+
+    <style name="RightRadioButtonStyle" parent="BaseRadioButtonStyle">
+        <item name="android:background">@drawable/selector_right</item>
+    </style>
+
+    <style name="MyRadioGroupStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/shape_radio_group</item>
+    </style>
+
+</resources>

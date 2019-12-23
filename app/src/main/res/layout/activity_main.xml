@@ -6,54 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <RadioGroup
+    <pe.com.carrion.edward.radiobuttonstyleapplication.widget.MyRadioGroup
         android:id="@+id/rg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/shape_radio_group"
-        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <RadioButton
+        <pe.com.carrion.edward.radiobuttonstyleapplication.widget.LeftRadioButton
             android:id="@+id/rb_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/selector_left"
-            android:button="@android:color/transparent"
             android:checked="true"
-            android:text="@string/option_1"
-            android:textColor="@drawable/selector_text" />
+            android:text="@string/option_1" />
 
-        <RadioButton
+        <pe.com.carrion.edward.radiobuttonstyleapplication.widget.MiddleRadioButton
             android:id="@+id/rb_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/selector_middle"
-            android:button="@android:color/transparent"
-            android:text="@string/option_2"
-            android:textColor="@drawable/selector_text" />
+            android:text="@string/option_2" />
 
-        <RadioButton
+        <pe.com.carrion.edward.radiobuttonstyleapplication.widget.MiddleRadioButton
             android:id="@+id/rb_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/selector_middle"
-            android:button="@android:color/transparent"
-            android:text="@string/option_3"
-            android:textColor="@drawable/selector_text" />
+            android:text="@string/option_3" />
 
-        <RadioButton
+        <pe.com.carrion.edward.radiobuttonstyleapplication.widget.RightRadioButton
             android:id="@+id/rb_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/selector_right"
-            android:button="@android:color/transparent"
-            android:text="@string/option_4"
-            android:textColor="@drawable/selector_text" />
+            android:text="@string/option_4" />
 
-    </RadioGroup>
+    </pe.com.carrion.edward.radiobuttonstyleapplication.widget.MyRadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
