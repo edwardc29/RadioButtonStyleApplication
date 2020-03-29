@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':customradiobutton'
 rootProject.name='RadioButtonStyleApplication'
